@@ -21,6 +21,7 @@ public class ContactsPage extends BasePage {
 	 By jobTitle= By.xpath("//input[@data-field='jobtitle']");
 	 By phoneNumber= By.xpath("//input[@data-field='phone']");
 	 By contactSubmit=By.xpath("//button[@data-confirm-button='accept']");
+	 By contactsNavigationLink = By.xpath("(//i18n-string[text()='Contacts'])[1]");
 	
 	//2.Constructor
 	public ContactsPage(WebDriver driver) {
@@ -57,6 +58,14 @@ public class ContactsPage extends BasePage {
 		//elementUtil.getElement(contactSubmit);
 		//jsUtil.clickElementbyJS(contactSubmit);
 		driver.findElement(contactSubmit).click();
+		//String fullName = firstname +" "+lastname;
+		//String nameXpath = "(//span[text()='"+fullName+"'])[2]";
+		//elementUtil.waitForElementToBePresent(contactsNavigationLink, 30);
+		//String contactName = elementUtil.doGetText(By.xpath(nameXpath)).trim();
+		TimeUtil.mediumWait();
+		elementUtil.doClick(contactsNavigationLink);
+		
+		//return contactName ;
 	}
 
 }
