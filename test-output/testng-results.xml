@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41973" started-at="2020-05-03T17:50:12Z" finished-at="2020-05-03T17:50:54Z">
+  <suite name="Regression testing of hubspot apllication" duration-ms="60833" started-at="2020-06-21T09:07:27Z" finished-at="2020-06-21T09:08:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41973" started-at="2020-05-03T17:50:12Z" finished-at="2020-05-03T17:50:54Z">
+    <test name="Regression testing hubspot" duration-ms="60833" started-at="2020-06-21T09:07:27Z" finished-at="2020-06-21T09:08:28Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="setup" is-config="true" duration-ms="16709" started-at="2020-05-03T17:50:12Z" finished-at="2020-05-03T17:50:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="setup" is-config="true" duration-ms="30631" started-at="2020-06-21T09:07:30Z" finished-at="2020-06-21T09:08:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="verifyLoginPageTitleTest" duration-ms="84" started-at="2020-05-03T17:50:29Z" finished-at="2020-05-03T17:50:29Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="verifyLoginPageTitleTest" duration-ms="196" started-at="2020-06-21T09:08:01Z" finished-at="2020-06-21T09:08:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="checkSignUplinkdisplayTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="checkSignUplinkdisplayTest" duration-ms="370" started-at="2020-05-03T17:50:29Z" finished-at="2020-05-03T17:50:30Z">
+        <test-method status="PASS" signature="checkSignUplinkdisplayTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="checkSignUplinkdisplayTest" duration-ms="297" started-at="2020-06-21T09:08:01Z" finished-at="2020-06-21T09:08:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSignUplinkdisplayTest -->
-        <test-method status="PASS" signature="checkshowpassworddisplayTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="checkshowpassworddisplayTest" duration-ms="162" started-at="2020-05-03T17:50:30Z" finished-at="2020-05-03T17:50:30Z">
+        <test-method status="PASS" signature="checkshowpassworddisplayTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="checkshowpassworddisplayTest" duration-ms="639" started-at="2020-06-21T09:08:01Z" finished-at="2020-06-21T09:08:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkshowpassworddisplayTest -->
-        <test-method status="PASS" signature="checkforgetlinkdisplayTest()[pri:4, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="checkforgetlinkdisplayTest" duration-ms="100" started-at="2020-05-03T17:50:30Z" finished-at="2020-05-03T17:50:30Z">
+        <test-method status="PASS" signature="checkforgetlinkdisplayTest()[pri:4, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="checkforgetlinkdisplayTest" duration-ms="180" started-at="2020-06-21T09:08:02Z" finished-at="2020-06-21T09:08:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkforgetlinkdisplayTest -->
-        <test-method status="PASS" signature="checkremembertextdisplayTest()[pri:5, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="checkremembertextdisplayTest" duration-ms="95" started-at="2020-05-03T17:50:30Z" finished-at="2020-05-03T17:50:30Z">
+        <test-method status="PASS" signature="checkremembertextdisplayTest()[pri:5, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="checkremembertextdisplayTest" duration-ms="145" started-at="2020-06-21T09:08:02Z" finished-at="2020-06-21T09:08:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkremembertextdisplayTest -->
-        <test-method status="PASS" signature="loginTest()[pri:7, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="loginTest" duration-ms="22938" started-at="2020-05-03T17:50:30Z" finished-at="2020-05-03T17:50:53Z">
+        <test-method status="PASS" signature="loginTest()[pri:7, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="loginTest" duration-ms="23911" started-at="2020-06-21T09:08:02Z" finished-at="2020-06-21T09:08:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1efef64]" name="teardown" is-config="true" duration-ms="1424" started-at="2020-05-03T17:50:53Z" finished-at="2020-05-03T17:50:54Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a004a0]" name="teardown" is-config="true" duration-ms="1872" started-at="2020-06-21T09:08:26Z" finished-at="2020-06-21T09:08:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Regression testing hubspot -->
+  </suite> <!-- Regression testing of hubspot apllication -->
 </testng-results>
